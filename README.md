@@ -12,3 +12,4 @@ Well, I watched this television show one day. It was called Mr. Robot, and its a
 
 Now, I am training to become a Cybersecurity specialist. Someone that people can trust with their data, and know will be kept safe. On my mission for the LDS church, I employed some of these principles as I served in the office as a technology specialist. I loved it. I loved being able to help others and teach them about technology, and I wish to do the same at whatever company I work in the future.
 >>>>>>> 4d30f6bc52df8d070e0307d4101c0e46b9d26dc0
+# Lab2B-TaskListWebsite
