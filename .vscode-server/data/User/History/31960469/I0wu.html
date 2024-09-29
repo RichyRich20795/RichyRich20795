@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Add an appropriate title in this tag -->
+  <title>Richard's Website </title>
+  <!-- Links to stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="readTasks()">
+
+  <nav> <a href="/html/">BYU ITC-210</a></nav>
+
+  <h1><b> My Tasks </b></h1>
+
+  <link rel ="icon" type="image" href="favicon.ico">
+
+  <input type="checkbox" class="toggle-swtich" id="sort1" name="sort1" value="Date">
+  <label for="sort1"> Sort by Date </label>
+
+  <input type="checkbox" class="toggle-swtich" id="filter1" name="filter1" value="Tasks">
+  <label for="filter1"> Filter completed tasks </label>
+
+  <ul class="tasklist">
+    <ul class="tasklist"> 
+      <li class="task"><input type="checkbox" class="task-done checkbox-icon" id="task1" name="task1" value="Task"><label for="task1" class="task-description fill-width"> Get a Girl's number </label> <span> <label for="task1" class="task-date"> 09-10-2024 </label></span> <button type="button1" class="task-delete material-icon"> <span class="material-symbols-outlined task-delete" > do_not_disturb_on </span></button> </li>
+    </ul>
+    <br>
+    <ul class="tasklist"> 
+      <li class="task"><input type="checkbox" class="task-done checkbox-icon" id="task2" name="task2" value="Task"><label for="task2" class="task-description fill-width"> Finish this assignment </label> <span> <label for="task2" class="task-date"> 09-30-2024 </label></span> <button type="button2" class="task-delete material-icon"> <span class="material-symbols-outlined task-delete" > do_not_disturb_on </span></button> </li>
+    </ul>
+
+  </ul>
+
+  <form class="form-create-task" onsubmit="createTask(event)"> 
+    <input type="text" id="enterTask" name="enterTask" required>
+    <label for="enterTask"></label><br> 
+
+    <input type="date" id="enterDate" name="enterDate">
+    <label for="enterDate"></label><br>
+    <br>
+    <button type="button3" class="cartoonish-button"> Create Task </button><br>
+
+  </form>
+
+  <!-- Your visible elements -->
+  <!-- Links to scripts -->
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+
+

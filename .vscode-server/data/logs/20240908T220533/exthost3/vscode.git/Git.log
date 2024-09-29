@@ -1,0 +1,48 @@
+2024-09-08 22:32:44.250 [info] [main] Log level: Info
+2024-09-08 22:32:44.250 [info] [main] Validating found git in: "git"
+2024-09-08 22:32:44.250 [info] [main] Using git "2.34.1" from "git"
+2024-09-08 22:32:44.250 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-08 22:32:44.250 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-08 22:32:44.250 [info] fatal: this operation must be run in a work tree
+2024-09-08 22:32:44.250 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-08 22:32:44.250 [info] fatal: this operation must be run in a work tree
+2024-09-08 22:32:44.250 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-08 22:32:44.250 [info] fatal: this operation must be run in a work tree
+2024-09-08 22:32:44.250 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-08 22:32:44.250 [info] fatal: this operation must be run in a work tree
+2024-09-08 22:32:44.250 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-08 22:32:44.250 [info] fatal: this operation must be run in a work tree
+2024-09-08 22:32:44.250 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-08 22:32:44.250 [info] fatal: this operation must be run in a work tree
+2024-09-08 22:32:44.257 [info] > git rev-parse --show-toplevel [8ms]
+2024-09-08 22:32:44.257 [info] fatal: this operation must be run in a work tree
+2024-09-08 22:32:44.262 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-08 22:32:53.110 [info] > git init -b main [16ms]
+2024-09-08 22:32:53.114 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-08 22:32:53.119 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-08 22:32:53.134 [info] [Model][openRepository] Opened repository: /home/husky/lab1/lab-1a-RichyRich20795/.git
+2024-09-08 22:32:53.145 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-08 22:32:53.146 [info] > git config --get commit.template [5ms]
+2024-09-08 22:32:53.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-08 22:32:53.147 [warning] [Git][getBranch] No such branch: main
+2024-09-08 22:32:53.153 [info] > git status -z -uall [3ms]
+2024-09-08 22:32:53.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [67ms]
+2024-09-08 22:32:53.227 [warning] [Git][getBranch] No such branch: main
+2024-09-08 22:32:53.288 [info] > git config --get commit.template [69ms]
+2024-09-08 22:32:53.292 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-08 22:32:53.293 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-08 22:32:53.293 [warning] [Git][getBranch] No such branch: main
+2024-09-08 22:32:53.298 [info] > git status -z -uall [2ms]
+2024-09-08 22:32:53.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2024-09-08 22:32:53.330 [warning] [Git][getBranch] No such branch: main
+2024-09-08 22:32:53.979 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-08 22:32:54.378 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-08 22:32:54.379 [info] > git config --get commit.template [3ms]
+2024-09-08 22:32:54.380 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-08 22:32:54.380 [warning] [Git][getBranch] No such branch: main
+2024-09-08 22:32:54.383 [info] > git status -z -uall [2ms]
+2024-09-08 22:32:54.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-08 22:32:54.389 [warning] [Git][getBranch] No such branch: main
+2024-09-08 22:32:58.933 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-08 22:33:00.189 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-08 22:34:27.168 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]

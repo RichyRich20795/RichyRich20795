@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Add an appropriate title in this tag -->
+  <title>Richard's Website </title>
+  <!-- Links to stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="readTasks()">
+
+  <nav> <a href="/html/">BYU ITC-210</a></nav>
+
+  <h1><b> My Tasks </b></h1>
+
+  <link rel ="icon" type="image" href="favicon.ico">
+
+  <input type="checkbox" class="toggle-swtich" id="sort1" name="sort1" value="Date">
+  <label for="sort1"> Sort by Date </label>
+
+  <input type="checkbox" class="toggle-swtich" id="filter1" name="filter1" value="Tasks">
+  <label for="filter1"> Filter completed tasks </label>
+
+  <ul id="tasklist" class="tasklist">
+
+  </ul>
+
+  <form class="form-create-task" onsubmit="createTask(event)"></form>
+    <input type="text" id="enterTask" name="taskText" placeholder="Enter Task" required>
+    <br>
+    <input type="date" id="enterDate" name="taskDate" required>
+    <br>
+    <br>
+    <button type="button3" id="taskDone" class="cartoonish-button" onclick="createTask(event)">Create Task</button>
+    <br>
+</form>
+
+  <!-- Your visible elements -->
+  <!-- Links to scripts -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+
+

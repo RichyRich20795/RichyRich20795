@@ -1,0 +1,41 @@
+[Error - 9:30:41 PM] Error while computing completions for file:///home/husky/lab1/src/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1372089)
+    at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798653
+    at B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798665)
+    at j.computeCompletions (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798053)
+    at J.doComplete2 (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:799566)
+    at doComplete (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1312700)
+    at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1298409
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:449:9)
+[Error - 9:30:43 PM] Error while computing completions for file:///home/husky/lab1/src/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1372089)
+    at B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798776)
+    at j.computeCompletions (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798053)
+    at J.doComplete2 (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:799566)
+    at doComplete (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1312700)
+    at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1298409
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:449:9)
+[Error - 9:30:44 PM] Error while computing completions for file:///home/husky/lab1/src/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1372089)
+    at B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798776)
+    at j.computeCompletions (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798053)
+    at J.doComplete2 (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:799566)
+    at doComplete (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1312700)
+    at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1298409
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:449:9)
+[Error - 9:30:44 PM] Error while computing completions for file:///home/husky/lab1/src/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1372089)
+    at B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798776)
+    at j.computeCompletions (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798053)
+    at J.doComplete2 (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:799566)
+    at doComplete (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1312700)
+    at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1298409
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:449:9)

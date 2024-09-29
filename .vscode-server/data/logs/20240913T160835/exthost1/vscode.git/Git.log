@@ -1,0 +1,26 @@
+2024-09-13 16:08:38.244 [info] [main] Log level: Info
+2024-09-13 16:08:38.245 [info] [main] Validating found git in: "git"
+2024-09-13 16:08:38.245 [info] [main] Using git "2.34.1" from "git"
+2024-09-13 16:08:38.245 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-13 16:08:38.245 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-13 16:08:38.245 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-13 16:08:38.245 [info] > git rev-parse --show-toplevel [56ms]
+2024-09-13 16:08:38.251 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-13 16:08:38.270 [info] [Model][openRepository] Opened repository: /home/husky/lab1/lab-1a-RichyRich20795
+2024-09-13 16:08:38.276 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-13 16:08:38.288 [info] > git config --get commit.template [6ms]
+2024-09-13 16:08:38.291 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-13 16:08:38.302 [info] > git status -z -uall [4ms]
+2024-09-13 16:08:38.326 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2024-09-13 16:08:38.332 [info] > git config --get commit.template [7ms]
+2024-09-13 16:08:38.333 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-09-13 16:08:38.340 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-09-13 16:08:38.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-13 16:08:38.346 [info] > git merge-base refs/heads/master refs/remotes/origin/master [2ms]
+2024-09-13 16:08:38.355 [info] > git status -z -uall [4ms]
+2024-09-13 16:08:38.362 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [14ms]
+2024-09-13 16:08:38.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-09-13 16:08:38.377 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2024-09-13 16:08:38.381 [info] > git diff --name-status -z --diff-filter=ADMR b71004ba9b922392b5b868a8ff1827ea1c6c5a4c...refs/remotes/origin/master [16ms]
+2024-09-13 16:08:38.383 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-09-13 16:08:38.825 [info] > git check-ignore -v -z --stdin [1ms]

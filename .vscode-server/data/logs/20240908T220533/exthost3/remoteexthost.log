@@ -1,0 +1,150 @@
+2024-09-08 22:32:43.303 [info] Extension host with pid 55709 started
+2024-09-08 22:32:43.332 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-09-08 22:32:43.347 [info] Lock '/home/husky/.vscode-server/data/User/workspaceStorage/0bd0c3668e49d39dbd4fe4da9a8cc2a6/vscode.lock': Lock acquired.
+2024-09-08 22:32:43.421 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-08 22:32:43.540 [info] Eager extensions activated
+2024-09-08 22:32:43.541 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-08 22:32:43.541 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-08 22:32:43.988 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-09-08 22:32:53.183 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-08 22:32:54.232 [error] Error: No such branch: main.
+	at N.getBranch (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-08 22:32:54.331 [error] Error: No such branch: main.
+	at N.getBranch (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-08 22:32:55.391 [error] Error: No such branch: main.
+	at N.getBranch (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-08 22:34:48.366 [info] Extension host terminating: received terminate message from renderer
+2024-09-08 22:34:48.367 [info] Lock '/home/husky/.vscode-server/data/User/workspaceStorage/0bd0c3668e49d39dbd4fe4da9a8cc2a6/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-08 22:34:48.402 [error] Canceled: Canceled
+	at new D (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at i.O [as value] (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:952009)
+	at r.B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.C (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:802)
+	at r.fire (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:1018)
+	at Object.p [as dispose] (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:972587)
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:978709
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:978695)
+	at o.<anonymous> (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:159:4176)
+	at o.dispose (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at o.<anonymous> (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:954307)
+	at o.dispose (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at $ (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:167:13607
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:11:11463)
+	at m.eb (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:167:10282)
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at i.value (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:184:8581)
+	at r.B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.fire (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:949)
+	at a.fire (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:115:14463)
+	at h.A (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:115:17622)
+	at i.value (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:115:15980)
+	at r.B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.fire (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:949)
+	at m.acceptChunk (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:115:12209)
+	at i.value (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:115:11479)
+	at r.B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.fire (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:949)
+	at a.z (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:181:21815)
+	at a.acceptFrame (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:181:21621)
+	at i.n (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:181:20066)
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:181:16993
+	at Socket.b (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:181:14623)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-09-08 22:34:48.404 [error] Canceled: Canceled
+	at new D (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/github/dist/extension.js:2:322969)
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/github/dist/extension.js:2:323928
+	at i.value (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1060944)
+	at r.B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.C (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:802)
+	at r.fire (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:1018)
+	at Object.p [as dispose] (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:972587)
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:978709
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:978695)
+	at o.<anonymous> (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:159:4176)
+	at o.dispose (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at o.<anonymous> (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:954307)
+	at o.dispose (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at $ (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:167:13607
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:11:11463)
+	at m.eb (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:167:10282)
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at i.value (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:184:8581)
+	at r.B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.fire (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:949)
+	at a.fire (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:115:14463)
+	at h.A (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:115:17622)
+	at i.value (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:115:15980)
+	at r.B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.fire (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:949)
+	at m.acceptChunk (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:115:12209)
+	at i.value (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:115:11479)
+	at r.B (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.fire (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:90:949)
+	at a.z (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:181:21815)
+	at a.acceptFrame (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:181:21621)
+	at i.n (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:181:20066)
+	at /home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:181:16993
+	at Socket.b (/home/husky/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/out/vs/workbench/api/node/extensionHostProcess.js:181:14623)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-09-08 22:34:48.404 [info] Extension host with pid 55709 exiting with code 0

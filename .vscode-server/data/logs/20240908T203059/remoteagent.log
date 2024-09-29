@@ -1,0 +1,13 @@
+2024-09-08 20:30:59.919 [info] 
+
+
+
+
+2024-09-08 20:30:59.932 [info] Extension host agent started.
+2024-09-08 20:30:59.982 [info] Started initializing default profile extensions in extensions installation folder. file:///home/husky/.vscode-server/extensions
+2024-09-08 20:30:59.998 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/husky/.vscode-server/extensions
+2024-09-08 20:31:00.140 [info] [127.0.0.1][d7a521a2][ManagementConnection] New connection established.
+2024-09-08 20:31:00.403 [info] [127.0.0.1][932356a4][ExtensionHostConnection] New connection established.
+2024-09-08 20:31:00.450 [info] [127.0.0.1][932356a4][ExtensionHostConnection] <3796> Launched Extension Host Process.
+2024-09-08 22:05:26.394 [info] [127.0.0.1][d7a521a2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-08 22:05:26.489 [info] [127.0.0.1][932356a4][ExtensionHostConnection] <3796> Extension Host Process exited with code: 0, signal: null.
