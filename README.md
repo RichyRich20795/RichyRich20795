@@ -1,6 +1,6 @@
 # Richard Haines - About Me 
 
-I was born as a twin in a family that already had quadruplets. Growing up in Detroit, Michigan with a crazy, turbulent, always exciting atmosphere, I quickly learned how to work well in a group. I loved being around people and helping others. Being able to support my siblings and grow up with them, created a team working attitude within me, and taught me how to resolve conflict and differences peacefully.
+I was born as a twin in a family that already had quadruplets. Growing up in Detroit, Michigan with a crazy, turbulent family, was always exciting atmosphere, I quickly learned how to work well in a group. I loved being around people and helping others. Being able to support my siblings and grow up with them, created a team working attitude within me, and taught me how to resolve conflict and differences peacefully.
 
 As I grew up, I acquired an affinity for technology, computers, and best of all, how to manipulate them. It was my favorite past time to find openings in my schools' security system and use it to play Minecraft or surf different places on the web. I thankfully never got in trouble, but this obsession continued at home, where I was always keeping up with new technology all around the world. This love eventually turned into an interest of Cybersecurity rather than just plain old computer science and engineering. Why Cybersecurity?
 
